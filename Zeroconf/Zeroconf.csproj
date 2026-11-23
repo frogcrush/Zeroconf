@@ -2,11 +2,11 @@
   <PropertyGroup>
     <TargetFrameworks>net6.0;net8.0;netstandard2.0;net48;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>
     <Copyright>© Claire Novotny 2016-2024</Copyright>
-    <PackageTags>zeroconf;bonjour;mdns;service;discovery;maui;xamarin;netstandard;universal</PackageTags>
+    <PackageTags>zeroconf;bonjour;mdns;service;discovery;maui;netstandard;universal</PackageTags>
     <Authors>Claire Novotny</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/novotnyllc/Zeroconf</PackageProjectUrl>
-    <Description>Bonjour support for .NET 6, .NET 8, .NET Standard 2.0, .NET Framework, Xamarin, and UWP</Description>
+    <Description>Bonjour support for .NET 6, .NET 8, .NET Standard 2.0, .NET Framework, .NET MAUI (iOS and Mac Catalyst), and UWP</Description>
     <Product>Zeroconf</Product>
     <GenerateDocumentationFile Condition=" '$(Configuration)' == 'Release' ">true</GenerateDocumentationFile>
     <CodeAnalysisRuleSet>Zeroconf.ruleset</CodeAnalysisRuleSet>
